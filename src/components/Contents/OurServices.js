@@ -1,10 +1,13 @@
+import { Image } from "react-bootstrap";
+import mega from "../../Assets/megawati.png"
+
 const OurServices = () => {
   return (
     <>
       <div id="our-services">
         <section className="row services">
           <div className="col-md-6 col-sm-12">
-            <img src="/img/img_service.png" alt="" />
+            <Image src={mega}/>
           </div>
           <div className="col-md-6 align-self-center">
             <h2>Best Car Rental for any kind of trip in (Lokasimu)!</h2>
